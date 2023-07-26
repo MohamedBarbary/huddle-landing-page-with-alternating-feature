@@ -1,34 +1,4 @@
 
-:root{
-    --main-color:#10cab7;
-    --secondary-color: #2c4755;
-    --section-padding: 60px;
-    --section-background: #f6f6f6;
-    --main-duration: 0.5s;
-}
-/* End variables */
-.special-heading{
-   color: #ebebeb;
-   font-size: 100px;
-   font-weight: 800;
-   text-align: center;
-   margin: 0%;
-   letter-spacing: -3px;
-}
-.special-heading + p {
-    margin: -30px 0 0 ;
-    text-align: center;
-    color: #797979;
-    font-size: 20px;
-}
- @media (max-width:767px) {
-    .special-heading{
-      font-size: 50px;
-    }
-    .special-heading + p {
-        margin: -17px 0 0 ;
-    }
- }
  html {
     scroll-behavior: smooth;
   }
@@ -120,7 +90,7 @@ body {
 
  @media (max-width: 768px) {
     header img{
-       max-width: 100px;
+       max-width: 75px;
      }
      header div {
         width: 150px;
